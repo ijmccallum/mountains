@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "pullData": "node ./src/scrapeRoutes",
+    "stats": "node ./src/routeStats"
   },
   "author": "",
   "license": "ISC",
