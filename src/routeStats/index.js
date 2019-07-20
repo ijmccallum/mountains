@@ -4,28 +4,28 @@
 const getSummits = require('./getSummitList.js');
 const getSummitListStats = require('./getSummitListStats.js');
 const routeData = require('../../data/routeData.json');
-const aToZMunros = require('../../data/munrosAtoZ.json');
+const aToZCorbetts = require('../../data/corbettsAtoZ.json');
 
 let summitList = getSummits({ routeData });
 let summitStats = getSummitListStats({ summitList });
 
-let munroSummitList = summitList.filter((summit) => {
-  return summit.type == 'Munro'
+let corbettSummitList = summitList.filter((summit) => {
+  return summit.type == 'Corbett'
 });
 
-//which munros do I not have?
+//which corbetts do I not have?
 
-console.log('munroSummitList', munroSummitList.length);
-console.log('aToZMunros', aToZMunros.length);
-let missingMunros = aToZMunros.filter((munro) => {
+console.log('corbettSummitList', corbettSummitList.length);
+console.log('aToZCorbetts', aToZCorbetts.length);
+let missingCorbetts = aToZCorbetts.filter((corbett) => {
   let isInRouteList = false;
-  munroSummitList.forEach((routeMunro) => {
-    if (routeMunro.title == munro.Mountain) {
+  corbettSummitList.forEach((routeCorbett) => {
+    if (routeCorbett.title == corbett.Mountain) {
       isInRouteList = true;
     }
   });
   return !isInRouteList;
 });
 
-console.log('missingMunros', missingMunros);
-console.log(missingMunros.length);
+console.log('missingCorbetts', missingCorbetts);
+console.log(missingCorbetts.length);
