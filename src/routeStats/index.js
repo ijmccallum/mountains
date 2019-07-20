@@ -3,8 +3,9 @@
 
 const getSummits = require('./getSummitList.js');
 const getSummitListStats = require('./getSummitListStats.js');
+const getSummitRoutes = require('./getSummitRoutes.js');
 const routeData = require('../../data/routeData.json');
-const aToZCorbetts = require('../../data/corbettsAtoZ.json');
+const getRouteStats = require('./getRouteStats.js');
 
 let summitList = getSummits({ routeData });
 let summitStats = getSummitListStats({ summitList });
@@ -13,19 +14,15 @@ let corbettSummitList = summitList.filter((summit) => {
   return summit.type == 'Corbett'
 });
 
-//which corbetts do I not have?
-
-console.log('corbettSummitList', corbettSummitList.length);
-console.log('aToZCorbetts', aToZCorbetts.length);
-let missingCorbetts = aToZCorbetts.filter((corbett) => {
-  let isInRouteList = false;
-  corbettSummitList.forEach((routeCorbett) => {
-    if (routeCorbett.title == corbett.Mountain) {
-      isInRouteList = true;
-    }
-  });
-  return !isInRouteList;
+let munroSummitList = summitList.filter((summit) => {
+  return summit.type == 'Munro'
 });
 
-console.log('missingCorbetts', missingCorbetts);
-console.log(missingCorbetts.length);
+//get an array of routes that hit a munro or a corbett
+let summitRoutes = getSummitRoutes({ routeData });
+let summitRouteStats = getRouteStats({ routeData: summitRoutes });
+
+console.log('summitStats', summitStats);
+console.log('routeData', routeData.length);
+console.log('summitRoutes', summitRoutes.length);
+console.log('summitRouteStats', summitRouteStats);

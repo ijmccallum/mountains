@@ -79,13 +79,13 @@
  },
  {
    "No.": 14,
-   "Mountain": "Beinn a' Chaisteil (Auch)",
+   "Mountain": "Beinn a'Chaisteil (Auch)",
    "Region": "Argyll",
    "Alt": "886m"
  },
  {
    "No.": 15,
-   "Mountain": "Beinn a' Chaisteil (Strath Vaich)",
+   "Mountain": "Beinn a'Chaisteil (Strath Vaich)",
    "Region": "Ullapool",
    "Alt": "788m"
  },
@@ -505,7 +505,7 @@
  },
  {
    "No.": 85,
-   "Mountain": "Binnein an Fhidhleir",
+   "Mountain": "Binnein an Fhidhleir (Stob Coire Creagach)",
    "Region": "Loch Lomond",
    "Alt": "817m"
  },
@@ -631,7 +631,7 @@
  },
  {
    "No.": 106,
-   "Mountain": "Carn Mor (Glen Dessarry)",
+   "Mountain": "Carn Mor (Glen Dessary)",
    "Region": "Fort William",
    "Alt": "829m"
  },
@@ -853,7 +853,7 @@
  },
  {
    "No.": 143,
-   "Mountain": "Garbh-bheinn (Skye)",
+   "Mountain": "Garbh Bheinn (Skye)",
    "Region": "Skye",
    "Alt": "808m"
  },
@@ -931,13 +931,13 @@
  },
  {
    "No.": 156,
-   "Mountain": "Maol Creag an Loch (A' Chaoirnich)",
+   "Mountain": "Maol Creag an Loch (a'Chaoirnich)",
    "Region": "Perthshire",
    "Alt": "875m"
  },
  {
    "No.": 157,
-   "Mountain": "Meall a' Ghiubhais",
+   "Mountain": "Meall a'Ghiubhais",
    "Region": "Torridon",
    "Alt": "887m"
  },
@@ -1189,7 +1189,7 @@
  },
  {
    "No.": 199,
-   "Mountain": "Sgurr Cos na Breachd-laoigh",
+   "Mountain": "Sgurr Cos na Breachd-laoidh",
    "Region": "Fort William",
    "Alt": "835m"
  },

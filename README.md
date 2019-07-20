@@ -12,3 +12,5 @@ Mountains
  - munro / corbett / ...
  - date summitted
  - journal
+
+Grahams don't all have routes on walk the highlands, in fact the vast majority don't.

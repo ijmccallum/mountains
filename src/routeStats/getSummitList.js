@@ -1,7 +1,7 @@
 const addSummit = ({newSummit, summitList}) => {
   let isUnique = true;
   summitList.forEach((existingSummit) => {
-    if (existingSummit.title === newSummit.title) {
+    if (existingSummit.link === newSummit.link) {
       isUnique = false;
     }
   });
