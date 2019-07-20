@@ -1,4 +1,4 @@
-const data = require('../data/walkTheHighlandRoutes.json');
+const data = require('../data/routeData.json');
 const urlToRouteData = require('./urlToRouteData.js');
 const saveRouteData = require('./saveRouteData.js');
 
@@ -13,23 +13,24 @@ async function asyncForEach(array, callback) {
   }
 }
 asyncForEach(data, async (ROUTE, i) => {
-  if (i < 3000) {
-    let urlRouteData = {};
-    try {
-      urlRouteData = await urlToRouteData(ROUTE.href);
-    } catch (err) {
-      console.log('route err ', ROUTE.Walk);
-      console.log(err);
-    }
-
-    let combinedRouteData = {...ROUTE, ...urlRouteData};
-    
-    try {
-      await saveRouteData({newRouteData: combinedRouteData});
-    } catch(err) {
-      console.log('Save err', ROUTE.title);
-      console.log(err);
-    }
-    // await sleep(400);
+  console.log(`${i}/${data.length} Route: ${ROUTE.Walk}`);
+  let urlRouteData = {};
+  try {
+    urlRouteData = await urlToRouteData(ROUTE);
+  } catch (err) {
+    console.log('route err ', ROUTE.Walk);
+    console.log(err);
   }
+
+  let combinedRouteData = {...ROUTE, ...urlRouteData};
+  
+  try {
+    await saveRouteData({newRouteData: combinedRouteData});
+  } catch(err) {
+    console.log('Save err', ROUTE.Walk);
+    console.log(err);
+  }
+
+  let sleepDur = Math.floor(Math.random() * 1000) + 1;
+  await sleep(sleepDur);
 });
