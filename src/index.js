@@ -13,24 +13,27 @@ async function asyncForEach(array, callback) {
   }
 }
 asyncForEach(data, async (ROUTE, i) => {
-  console.log(`${i}/${data.length} Route: ${ROUTE.Walk}`);
-  let urlRouteData = {};
-  try {
-    urlRouteData = await urlToRouteData(ROUTE);
-  } catch (err) {
-    console.log('route err ', ROUTE.Walk);
-    console.log(err);
-  }
-
-  let combinedRouteData = {...ROUTE, ...urlRouteData};
+  if (!ROUTE.gmapstart) {
+    console.log(`${i}/${data.length} Route: ${ROUTE.Walk}`);
   
-  try {
-    await saveRouteData({newRouteData: combinedRouteData});
-  } catch(err) {
-    console.log('Save err', ROUTE.Walk);
-    console.log(err);
+    let urlRouteData = {};
+    try {
+      urlRouteData = await urlToRouteData(ROUTE);
+    } catch (err) {
+      console.log('route err ', ROUTE.Walk);
+      console.log(err);
+    }
+  
+    let combinedRouteData = {...ROUTE, ...urlRouteData};
+    
+    try {
+      await saveRouteData({newRouteData: combinedRouteData});
+    } catch(err) {
+      console.log('Save err', ROUTE.Walk);
+      console.log(err);
+    }
+  
+    let sleepDur = Math.floor(Math.random() * 1000) + 1;
+    await sleep(sleepDur);
   }
-
-  let sleepDur = Math.floor(Math.random() * 1000) + 1;
-  await sleep(sleepDur);
 });
