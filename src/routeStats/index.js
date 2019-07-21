@@ -6,6 +6,7 @@ const getSummitListStats = require('./getSummitListStats.js');
 const getSummitRoutes = require('./getSummitRoutes.js');
 const routeData = require('../../data/routeData.json');
 const getRouteStats = require('./getRouteStats.js');
+const saveStatsToMd = require('./saveStatsToMd.js');
 
 let summitList = getSummits({ routeData });
 let summitStats = getSummitListStats({ summitList });
@@ -26,3 +27,6 @@ console.log('summitStats', summitStats);
 console.log('routeData', routeData.length);
 console.log('summitRoutes', summitRoutes.length);
 console.log('summitRouteStats', summitRouteStats);
+
+//Write stats to markdown!
+saveStatsToMd({totalRouteCount: routeData.length, typeCounts: summitRoutes.length, typeCompleteCounts: 0});
