@@ -24,8 +24,8 @@ _Don't edit directly, I'm generated!_
 
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
 
-| Grade | Munros | Corbetts | Grahams | Donalds | Sub 2000s | Walk title | time |
-|-------|:------:|:--------:|:-------:|:-------:|:---------:|------------|------|
+| Grade | M C G D Sub 2000 | Walk title | time |
+|-------|:----------------:|------------|------|
 `;
     
       multiSummitRoutes.forEach((route) => {
@@ -41,7 +41,7 @@ Multi summit routes, sorted by grade, then summit types from Munros through Sub 
         });
 
         try {
-          mdString += `|**${route.Grade}**|${summitCount.Munro}|${summitCount.Corbett}|${summitCount.Graham}|${summitCount.Donald}|${summitCount['Sub 2000']}|[${route.Walk}](${route.href})|${route.time}|
+          mdString += `|**${route.Grade}**|${summitCount.Munro} ${summitCount.Corbett} ${summitCount.Graham} ${summitCount.Donald} ${summitCount['Sub 2000']}|[${route.Walk}](${route.href})|${route.time}|
 `;
         } catch (err) {
           console.log('multi summit stat err', err);
