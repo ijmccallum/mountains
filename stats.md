@@ -3,6 +3,10 @@ _Don't edit directly, I'm generated!_
 
  * Total route count: 2108
 
+ Munros hiked: 2/282
+ Corbetts hiked: 2/222
+ Grahams hiked: 0/219
+
  Count of routes that include a type of summit by grade.
 
 |                   | 1 | 2 | 3 | 4 | 5 |
@@ -14,8 +18,8 @@ _Don't edit directly, I'm generated!_
 
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
 
-| Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /><br /> M C G D S | Walk title | time |
-|-------|:----------------:|------------|------|
+| Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | time |
+|:-----:|:---------------------------------------------------------------:|------------|------|
 |**2**|0 0 0 2 0|[Glen Sherup horseshoe, Glen Devon](https://www.walkhighlands.co.uk/fife-stirling/glen-sherup.shtml)|5 - 6 hours|
 |**3**|0 0 0 0 2|[Carleatheran and Stronend,  near Kippen](https://www.walkhighlands.co.uk/glasgow/carleatheran.shtml)|5 - 6.5 hours|
 |**3**|0 0 0 0 2|[Little Conval and Meikle Conval, Dufftown](https://www.walkhighlands.co.uk/moray/convals.shtml)|3.5 - 4.5 hours|

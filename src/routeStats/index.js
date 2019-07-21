@@ -8,6 +8,7 @@ const routeData = require('../../data/routeData.json');
 const getGradeCountObj = require('./getGradeCountObj.js');
 const saveStatsToMd = require('./saveStatsToMd.js');
 const getMultiSummitRoutes = require('./getMultiSummitRoutes.js');
+const getTypeCompletionRatios = require('./getTypeCompletionRatios.js');
 
 let summitList = getSummits({ routeData });
 let summitStats = getSummitListStats({ summitList });
@@ -26,9 +27,10 @@ grahamGradeCounts.total = grahamRoutes.length;
 let sub2000GradeCounts = getGradeCountObj({ routeData: sub2000Routes });
 sub2000GradeCounts.total = sub2000Routes.length;
 
-console.log('summitStats', summitStats);
-console.log('routeData', routeData.length);
 let multiSummitRoutes = getMultiSummitRoutes({routeData});
+
+let typeCompleteRatios = getTypeCompletionRatios({hiker: 'I'});
+console.log('typeCompleteRatios', typeCompleteRatios);
 
 //Write stats to markdown!
 saveStatsToMd({
@@ -40,5 +42,5 @@ saveStatsToMd({
     sub2000s: sub2000GradeCounts
   }, 
   multiSummitRoutes: multiSummitRoutes,
-  typeCompleteCounts: 0
+  typeCompleteRatios
 });

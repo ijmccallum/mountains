@@ -36,11 +36,6 @@ const sortRoutesByType = ({ routeData }) => {
       return 0;
   });
 
-
-  sortedArray.forEach((route) => {
-    console.log(route);
-  });
-
   return sortedArray;
 }
 

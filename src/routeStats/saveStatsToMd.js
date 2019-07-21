@@ -4,7 +4,7 @@ const path = require('path');
 const saveStatsToMd = ({
   totalRouteCount, 
   typeGradeCounts,
-  typeCompleteCounts,
+  typeCompleteRatios,
   multiSummitRoutes
 }) => {
   return new Promise((resolve, reject) => {
@@ -12,6 +12,10 @@ const saveStatsToMd = ({
 _Don't edit directly, I'm generated!_
 
  * Total route count: ${totalRouteCount}
+
+ Munros hiked: ${typeCompleteRatios.munros.completed}/${typeCompleteRatios.munros.total}
+ Corbetts hiked: ${typeCompleteRatios.corbetts.completed}/${typeCompleteRatios.corbetts.total}
+ Grahams hiked: ${typeCompleteRatios.grahams.completed}/${typeCompleteRatios.grahams.total}
 
  Count of routes that include a type of summit by grade.
 
