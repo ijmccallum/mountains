@@ -11,13 +11,15 @@ const saveStatsToMd = ({
       let mdString = `# Stats
 _Don't edit directly, I'm generated!_
 
- * Total route count: ${totalRouteCount}
+Munros hiked: **${typeCompleteRatios.munros.completed}/${typeCompleteRatios.munros.total}**
+Corbetts hiked: **${typeCompleteRatios.corbetts.completed}/${typeCompleteRatios.corbetts.total}**
+Grahams hiked: **${typeCompleteRatios.grahams.completed}/${typeCompleteRatios.grahams.total}**
 
- Munros hiked: ${typeCompleteRatios.munros.completed}/${typeCompleteRatios.munros.total}
- Corbetts hiked: ${typeCompleteRatios.corbetts.completed}/${typeCompleteRatios.corbetts.total}
- Grahams hiked: ${typeCompleteRatios.grahams.completed}/${typeCompleteRatios.grahams.total}
+## Routes
 
- Count of routes that include a type of summit by grade.
+Total route count: ${totalRouteCount}
+
+**Count of routes that include a type of summit by grade.**
 
 | Count of summit routes: ${typeGradeCounts.munros.total + typeGradeCounts.corbetts.total + typeGradeCounts.grahams.total + typeGradeCounts.donalds.total + typeGradeCounts.sub2000s.total} | 1 | 2 | 3 | 4 | 5 |
 |-----------------------------------|---|---|---|---|---|
@@ -27,7 +29,9 @@ _Don't edit directly, I'm generated!_
 | Donalds (${typeGradeCounts.donalds.total})           |${typeGradeCounts.donalds['1']||0}|${typeGradeCounts.donalds['2']||0}|${typeGradeCounts.donalds['3']||0}|${typeGradeCounts.donalds['4']||0}|${typeGradeCounts.donalds['5']||0}|
 | Sub2000s (${typeGradeCounts.sub2000s.total})          |${typeGradeCounts.sub2000s['1']||0}|${typeGradeCounts.sub2000s['2']||0}|${typeGradeCounts.sub2000s['3']||0}|${typeGradeCounts.sub2000s['4']||0}|${typeGradeCounts.sub2000s['5']||0}|
 
-Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
+### Multi summit routes, 
+
+From easiest to hardest: sorted by grade, then by count of summit types.
 
 | Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | time |
 |:-----:|:---------------------------------------------------------------:|------------|------|

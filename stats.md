@@ -1,13 +1,15 @@
 # Stats
 _Don't edit directly, I'm generated!_
 
- * Total route count: 2108
+Munros hiked: **2/282**
+Corbetts hiked: **2/222**
+Grahams hiked: **0/219**
 
- Munros hiked: 2/282
- Corbetts hiked: 2/222
- Grahams hiked: 0/219
+## Routes
 
- Count of routes that include a type of summit by grade.
+Total route count: 2108
+
+**Count of routes that include a type of summit by grade.**
 
 | Count of summit routes: 544 | 1 | 2 | 3 | 4 | 5 |
 |-----------------------------------|---|---|---|---|---|
@@ -17,7 +19,9 @@ _Don't edit directly, I'm generated!_
 | Donalds (14)           |0|1|7|6|0|
 | Sub2000s (104)          |3|46|43|12|0|
 
-Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
+### Multi summit routes, 
+
+From easiest to hardest: sorted by grade, then by count of summit types.
 
 | Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | time |
 |:-----:|:---------------------------------------------------------------:|------------|------|
