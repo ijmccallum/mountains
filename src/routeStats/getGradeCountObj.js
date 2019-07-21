@@ -1,9 +1,8 @@
 /**
  * Returns an object
  * keys are the grades, number of routes for each grade
- * keys are the ...
  */
-const getRouteStats = ({ routeData }) => {
+const getGradeCountObj = ({ routeData }) => {
   let grades = {};
   routeData.forEach((route) => {
     if (!grades[route.Grade]) {
@@ -14,4 +13,4 @@ const getRouteStats = ({ routeData }) => {
   });
   return grades;
 }
-module.exports = getRouteStats;
+module.exports = getGradeCountObj;

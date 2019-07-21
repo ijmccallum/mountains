@@ -2,11 +2,11 @@
  * returns an array of routes that hit either a munro or a corbett
  */
 
-const getSummitRoutes = ({ routeData }) => {
+const filterRoutesBySummitType = ({ routeData, summitType }) => {
   let summitRoutes = [];
   routeData.forEach((route) => {
     let hitsASummit = route.summitsClimbed.some((summit) => {
-      if (summit.type == 'Munro' || summit.type == 'Corbett') {
+      if (summit.type == summitType) {
         return true;
       }
     });
@@ -18,4 +18,4 @@ const getSummitRoutes = ({ routeData }) => {
   return summitRoutes;
 }
 
-module.exports = getSummitRoutes;
+module.exports = filterRoutesBySummitType;

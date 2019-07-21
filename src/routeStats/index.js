@@ -3,30 +3,35 @@
 
 const getSummits = require('./getSummitList.js');
 const getSummitListStats = require('./getSummitListStats.js');
-const getSummitRoutes = require('./getSummitRoutes.js');
+const filterRoutesBySummitType = require('./filterRoutesBySummitType.js');
 const routeData = require('../../data/routeData.json');
-const getRouteStats = require('./getRouteStats.js');
+const getGradeCountObj = require('./getGradeCountObj.js');
 const saveStatsToMd = require('./saveStatsToMd.js');
 
 let summitList = getSummits({ routeData });
 let summitStats = getSummitListStats({ summitList });
 
-let corbettSummitList = summitList.filter((summit) => {
-  return summit.type == 'Corbett'
-});
+let munroRoutes = filterRoutesBySummitType({ routeData, summitType: 'Munro' });
+let corbettRoutes = filterRoutesBySummitType({ routeData, summitType: 'Corbett' });
+let grahamRoutes = filterRoutesBySummitType({ routeData, summitType: 'Graham' });
+let sub2000Routes = filterRoutesBySummitType({ routeData, summitType: 'Sub2000' });
 
-let munroSummitList = summitList.filter((summit) => {
-  return summit.type == 'Munro'
-});
-
-//get an array of routes that hit a munro or a corbett
-let summitRoutes = getSummitRoutes({ routeData });
-let summitRouteStats = getRouteStats({ routeData: summitRoutes });
+let munroGradeCounts = getGradeCountObj({ routeData: munroRoutes });
+let corbettGradeCounts = getGradeCountObj({ routeData: corbettRoutes });
+let grahamGradeCounts = getGradeCountObj({ routeData: grahamRoutes });
+let sub2000GradeCounts = getGradeCountObj({ routeData: sub2000Routes });
 
 console.log('summitStats', summitStats);
 console.log('routeData', routeData.length);
-console.log('summitRoutes', summitRoutes.length);
-console.log('summitRouteStats', summitRouteStats);
 
 //Write stats to markdown!
-saveStatsToMd({totalRouteCount: routeData.length, typeCounts: summitRoutes.length, typeCompleteCounts: 0});
+saveStatsToMd({
+  totalRouteCount: routeData.length, 
+  typeGradeCounts: {
+    munros: munroGradeCounts,
+    corbetts: corbettGradeCounts,
+    grahams: grahamGradeCounts,
+    sub2000s: sub2000GradeCounts
+  }, 
+  typeCompleteCounts: 0
+});
