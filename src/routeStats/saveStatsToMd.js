@@ -24,7 +24,7 @@ _Don't edit directly, I'm generated!_
 
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
 
-| Grade | M C G D Sub 2000 | Walk title | time |
+| Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /><br /> M C G D S | Walk title | time |
 |-------|:----------------:|------------|------|
 `;
     

@@ -14,7 +14,7 @@ _Don't edit directly, I'm generated!_
 
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
 
-| Grade | M C G D Sub 2000 | Walk title | time |
+| Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /><br /> M C G D S | Walk title | time |
 |-------|:----------------:|------------|------|
 |**2**|0 0 0 2 0|[Glen Sherup horseshoe, Glen Devon](https://www.walkhighlands.co.uk/fife-stirling/glen-sherup.shtml)|5 - 6 hours|
 |**3**|0 0 0 0 2|[Carleatheran and Stronend,  near Kippen](https://www.walkhighlands.co.uk/glasgow/carleatheran.shtml)|5 - 6.5 hours|
