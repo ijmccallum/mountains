@@ -41,7 +41,7 @@ Multi summit routes, sorted by grade, then summit types from Munros through Sub 
         });
 
         try {
-          mdString += `|${route.Grade}|${summitCount.Munro}|${summitCount.Corbett}|${summitCount.Graham}|${summitCount.Donald}|${summitCount['Sub 2000']}|[${route.Walk}](${route.href})|
+          mdString += `|${route.Grade}|${summitCount.Munro}|${summitCount.Corbett}|${summitCount.Graham}|${summitCount.Donald}|${summitCount['Sub 2000']}|[${route.Walk}](${route.href}), ${route.time}|
 `;
         } catch (err) {
           console.log('multi summit stat err', err);
