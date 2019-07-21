@@ -25,6 +25,7 @@ _Don't edit directly, I'm generated!_
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
 
 | Grade | Munros | Corbetts | Grahams | Donalds | Sub 2000s | Walk title |
+|-------|--------|----------|---------|---------|-----------|------------|
 `;
     
       multiSummitRoutes.forEach((route) => {

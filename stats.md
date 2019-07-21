@@ -15,6 +15,7 @@ _Don't edit directly, I'm generated!_
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:
 
 | Grade | Munros | Corbetts | Grahams | Donalds | Sub 2000s | Walk title |
+|-------|--------|----------|---------|---------|-----------|------------|
 |2|0|0|0|2|0|Glen Sherup horseshoe, Glen Devon|
 |3|0|0|0|0|2|Carleatheran and Stronend,  near Kippen|
 |3|0|0|0|0|2|Little Conval and Meikle Conval, Dufftown|
