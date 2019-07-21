@@ -24,6 +24,7 @@ _Don't edit directly, I'm generated!_
 | Munros (${typeGradeCounts.munros.total})            |${typeGradeCounts.munros['1']||0}|${typeGradeCounts.munros['2']||0}|${typeGradeCounts.munros['3']||0}|${typeGradeCounts.munros['4']||0}|${typeGradeCounts.munros['5']||0}|
 | Corbetts (${typeGradeCounts.corbetts.total})          |${typeGradeCounts.corbetts['1']||0}|${typeGradeCounts.corbetts['2']||0}|${typeGradeCounts.corbetts['3']||0}|${typeGradeCounts.corbetts['4']||0}|${typeGradeCounts.corbetts['5']||0}|
 | Grahams (${typeGradeCounts.grahams.total})           |${typeGradeCounts.grahams['1']||0}|${typeGradeCounts.grahams['2']||0}|${typeGradeCounts.grahams['3']||0}|${typeGradeCounts.grahams['4']||0}|${typeGradeCounts.grahams['5']||0}|
+| Donalds (${typeGradeCounts.donalds.total})           |${typeGradeCounts.donalds['1']||0}|${typeGradeCounts.donalds['2']||0}|${typeGradeCounts.donalds['3']||0}|${typeGradeCounts.donalds['4']||0}|${typeGradeCounts.donalds['5']||0}|
 | Sub2000s (${typeGradeCounts.sub2000s.total})          |${typeGradeCounts.sub2000s['1']||0}|${typeGradeCounts.sub2000s['2']||0}|${typeGradeCounts.sub2000s['3']||0}|${typeGradeCounts.sub2000s['4']||0}|${typeGradeCounts.sub2000s['5']||0}|
 
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:

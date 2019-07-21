@@ -14,6 +14,7 @@ _Don't edit directly, I'm generated!_
 | Munros (163)            |0|0|21|123|19|
 | Corbetts (201)          |0|0|46|149|6|
 | Grahams (62)           |0|2|26|31|3|
+| Donalds (14)           |0|1|7|6|0|
 | Sub2000s (104)          |3|46|43|12|0|
 
 Multi summit routes, sorted by grade, then summit types from Munros through Sub 2000s:

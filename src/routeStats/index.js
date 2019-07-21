@@ -16,6 +16,7 @@ let summitStats = getSummitListStats({ summitList });
 let munroRoutes = filterRoutesBySummitType({ routeData, summitType: 'Munro' });
 let corbettRoutes = filterRoutesBySummitType({ routeData, summitType: 'Corbett' });
 let grahamRoutes = filterRoutesBySummitType({ routeData, summitType: 'Graham' });
+let donaldRoutes = filterRoutesBySummitType({ routeData, summitType: 'Donald' });
 let sub2000Routes = filterRoutesBySummitType({ routeData, summitType: 'Sub 2000' });
 
 let munroGradeCounts = getGradeCountObj({ routeData: munroRoutes });
@@ -24,6 +25,8 @@ let corbettGradeCounts = getGradeCountObj({ routeData: corbettRoutes });
 corbettGradeCounts.total = corbettRoutes.length;
 let grahamGradeCounts = getGradeCountObj({ routeData: grahamRoutes });
 grahamGradeCounts.total = grahamRoutes.length;
+let donaldGradeCounts = getGradeCountObj({ routeData: donaldRoutes });
+donaldGradeCounts.total = donaldRoutes.length;
 let sub2000GradeCounts = getGradeCountObj({ routeData: sub2000Routes });
 sub2000GradeCounts.total = sub2000Routes.length;
 
@@ -39,6 +42,7 @@ saveStatsToMd({
     munros: munroGradeCounts,
     corbetts: corbettGradeCounts,
     grahams: grahamGradeCounts,
+    donalds: donaldGradeCounts,
     sub2000s: sub2000GradeCounts
   }, 
   multiSummitRoutes: multiSummitRoutes,
