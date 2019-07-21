@@ -32,7 +32,17 @@
  {
    "Mountain": "a'Mharconaich",
    "Region": "Cairngorms",
-   "Altitude": "975m"
+   "Altitude": "975m",
+   "climbed": [
+     {
+       "hiker": "I",
+       "date": "2019-03-31"
+     },
+     {
+      "hiker": "C",
+      "date": "2019-03-31"
+     }
+   ]
  },
  {
    "Mountain": "Am Basteir",
@@ -747,7 +757,17 @@
  {
    "Mountain": "Geal Charn (Drumochter)",
    "Region": "Cairngorms",
-   "Altitude": "917m"
+   "Altitude": "917m",
+   "climbed": [
+    {
+      "hiker": "I",
+      "date": "2019-03-31"
+    },
+    {
+     "hiker": "C",
+     "date": "2019-03-31"
+    }
+  ]
  },
  {
    "Mountain": "Glas Bheinn Mhor",
