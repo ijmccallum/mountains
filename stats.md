@@ -9,8 +9,8 @@ _Don't edit directly, I'm generated!_
 
  Count of routes that include a type of summit by grade.
 
-|                   | 1 | 2 | 3 | 4 | 5 |
-|-------------------|---|---|---|---|---|
+| Count of summit routes: 544 | 1 | 2 | 3 | 4 | 5 |
+|-----------------------------------|---|---|---|---|---|
 | Munros (163)            |0|0|21|123|19|
 | Corbetts (201)          |0|0|46|149|6|
 | Grahams (62)           |0|2|26|31|3|

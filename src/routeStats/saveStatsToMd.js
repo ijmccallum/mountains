@@ -19,8 +19,8 @@ _Don't edit directly, I'm generated!_
 
  Count of routes that include a type of summit by grade.
 
-|                   | 1 | 2 | 3 | 4 | 5 |
-|-------------------|---|---|---|---|---|
+| Count of summit routes: ${typeGradeCounts.munros.total + typeGradeCounts.corbetts.total + typeGradeCounts.grahams.total + typeGradeCounts.donalds.total + typeGradeCounts.sub2000s.total} | 1 | 2 | 3 | 4 | 5 |
+|-----------------------------------|---|---|---|---|---|
 | Munros (${typeGradeCounts.munros.total})            |${typeGradeCounts.munros['1']||0}|${typeGradeCounts.munros['2']||0}|${typeGradeCounts.munros['3']||0}|${typeGradeCounts.munros['4']||0}|${typeGradeCounts.munros['5']||0}|
 | Corbetts (${typeGradeCounts.corbetts.total})          |${typeGradeCounts.corbetts['1']||0}|${typeGradeCounts.corbetts['2']||0}|${typeGradeCounts.corbetts['3']||0}|${typeGradeCounts.corbetts['4']||0}|${typeGradeCounts.corbetts['5']||0}|
 | Grahams (${typeGradeCounts.grahams.total})           |${typeGradeCounts.grahams['1']||0}|${typeGradeCounts.grahams['2']||0}|${typeGradeCounts.grahams['3']||0}|${typeGradeCounts.grahams['4']||0}|${typeGradeCounts.grahams['5']||0}|
