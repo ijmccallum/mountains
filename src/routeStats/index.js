@@ -1,5 +1,5 @@
 const filterRoutesBySummitType = require('./filterRoutesBySummitType.js');
-const routeData = require('../../data/routeDataTidied.json');
+const routeData = require('../../data/routeData.json');
 const getMultiSummitRoutes = require('./getMultiSummitRoutes.js');
 
 const buildCompletionStatsMarkup = require('./buildCompletionStatsMarkup.js');
