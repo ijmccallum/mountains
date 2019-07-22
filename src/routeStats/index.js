@@ -1,10 +1,5 @@
-// get an array of summit types
-  // for each type, create an array of that type
-
-const getSummits = require('./getSummitList.js');
-const getSummitListStats = require('./getSummitListStats.js');
 const filterRoutesBySummitType = require('./filterRoutesBySummitType.js');
-const routeData = require('../../data/routeData.json');
+const routeData = require('../../data/routeDataTidied.json');
 const getMultiSummitRoutes = require('./getMultiSummitRoutes.js');
 
 const buildCompletionStatsMarkup = require('./buildCompletionStatsMarkup.js');
@@ -13,11 +8,6 @@ const buildMultiSummitRouteTableMarkup = require('./buildMultiSummitRouteTableMa
 const buildSingleSummitRouteTableMarkup = require('./buildSingleSummitRouteTableMarkup.js');
 
 const saveMDfile = require('./saveMDfile.js');
-
-
-let summitList = getSummits({ routeData });
-let summitStats = getSummitListStats({ summitList });
-
 
 let multiSummitRoutes = getMultiSummitRoutes({routeData});
 let munroRoutes = filterRoutesBySummitType({ routeData, summitType: 'Munro' });
