@@ -3,6 +3,7 @@ const routeData = require('../../data/routeData.json');
 const getMultiSummitRoutes = require('./getMultiSummitRoutes.js');
 
 const sortSingleSummitRouteData = require('./sortSingleSummitRouteData.js');
+const sortMultiSummitRoutes = require('./sortMultiSummitRoutes.js');
 
 const buildCompletionStatsMarkup = require('./buildCompletionStatsMarkup.js');
 const buildRouteGradeTableMarkup = require('./buildRouteGradeTableMarkup.js');
@@ -11,7 +12,8 @@ const buildSingleSummitRouteTableMarkup = require('./buildSingleSummitRouteTable
 
 const saveMDfile = require('./saveMDfile.js');
 
-let multiSummitRoutes = getMultiSummitRoutes({routeData});
+let multiSummitRoutes = getMultiSummitRoutes({ routeData });
+let sortedMultiSummitRoutes = sortMultiSummitRoutes({ routeData: multiSummitRoutes });
 let munroRoutes = filterRoutesBySummitType({ routeData, summitType: 'Munro' });
 let sortedMunroRoutes = sortSingleSummitRouteData({ routeData: munroRoutes });
 let corbettRoutes = filterRoutesBySummitType({ routeData, summitType: 'Corbett' });
