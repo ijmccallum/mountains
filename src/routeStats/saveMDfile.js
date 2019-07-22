@@ -1,0 +1,69 @@
+const fs = require('fs');
+const path = require('path');
+
+const saveMDfile = ({ 
+  completionStatsMarkup,
+  routeGradeTableMarkup,
+  multiSummitRouteTableMd,
+  singleMunroRouteTableMd,
+  singleCorbettRouteTableMd,
+  singleGrahamRouteTableMd,
+  singleDonaldRouteTableMd,
+  singleSub2000RouteTableMd
+}) => {
+let MDstring = `# Mountains
+
+${completionStatsMarkup}
+
+## Route grade table
+
+_Counts of routes by summit type & grade._
+
+${routeGradeTableMarkup}
+
+## Multi Summit Routes
+
+_From easiest to hardest: sorted by grade, then by count of summit types._
+
+${multiSummitRouteTableMd}
+
+## Routes by summit type
+
+_Sorted by grade, then by time._
+
+### Munro Routes
+
+${singleMunroRouteTableMd}
+
+### Corbett Routes
+
+${singleCorbettRouteTableMd}
+
+### Graham Routes
+
+${singleGrahamRouteTableMd}
+
+### Donald Routes
+
+${singleDonaldRouteTableMd}
+
+### Sub 2000 Routes
+
+${singleSub2000RouteTableMd}
+
+`;
+
+try {
+  fs.writeFile(path.join(__dirname, `../../stats.md`), MDstring, 'utf8', (err) => {
+    if(err) {
+      console.log('write MD file err');
+      console.log(err);
+    }
+  });
+} catch(err) {
+  console.log('write MD file err');
+  console.log(err);
+}
+}
+
+module.exports = saveMDfile;
