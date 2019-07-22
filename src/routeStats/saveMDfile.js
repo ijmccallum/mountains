@@ -54,7 +54,7 @@ ${singleSub2000RouteTableMd}
 `;
 
 try {
-  fs.writeFile(path.join(__dirname, `../../stats.md`), MDstring, 'utf8', (err) => {
+  fs.writeFile(path.join(__dirname, `../../README.md`), MDstring, 'utf8', (err) => {
     if(err) {
       console.log('write MD file err');
       console.log(err);
