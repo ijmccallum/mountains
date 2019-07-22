@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pullData": "node ./src/scrapeRoutes",
+    "scrape": "node ./src/scrapeRoutes",
     "stats": "node ./src/routeStats"
   },
   "author": "",
