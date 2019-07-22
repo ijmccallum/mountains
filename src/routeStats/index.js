@@ -9,6 +9,7 @@ const getGradeCountObj = require('./getGradeCountObj.js');
 const saveStatsToMd = require('./saveStatsToMd.js');
 const getMultiSummitRoutes = require('./getMultiSummitRoutes.js');
 const getTypeCompletionRatios = require('./getTypeCompletionRatios.js');
+const saveSortedRoutesToMd = require('./saveSortedRoutesToMd.js');
 
 let summitList = getSummits({ routeData });
 let summitStats = getSummitListStats({ summitList });
@@ -33,7 +34,6 @@ sub2000GradeCounts.total = sub2000Routes.length;
 let multiSummitRoutes = getMultiSummitRoutes({routeData});
 
 let typeCompleteRatios = getTypeCompletionRatios({hiker: 'I'});
-console.log('typeCompleteRatios', typeCompleteRatios);
 
 //Write stats to markdown!
 saveStatsToMd({
@@ -48,3 +48,10 @@ saveStatsToMd({
   multiSummitRoutes: multiSummitRoutes,
   typeCompleteRatios
 });
+
+// into their own files:
+saveSortedRoutesToMd({routeData: munroRoutes, type: 'Munro'});
+saveSortedRoutesToMd({routeData: corbettRoutes, type: 'Corbett'});
+saveSortedRoutesToMd({routeData: grahamRoutes, type: 'Graham'});
+saveSortedRoutesToMd({routeData: donaldRoutes, type: 'Donald'});
+saveSortedRoutesToMd({routeData: sub2000Routes, type: 'Sub 2000'});

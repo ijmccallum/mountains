@@ -57,7 +57,7 @@ From easiest to hardest: sorted by grade, then by count of summit types.
         }
       });
 
-      fs.writeFile(path.join(__dirname, '../../stats.md'), mdString, 'utf8', (err) => {
+      fs.writeFile(path.join(__dirname, '../../dist/stats.md'), mdString, 'utf8', (err) => {
         if(err) {
           reject(err);
         } else {
