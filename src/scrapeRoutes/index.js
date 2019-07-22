@@ -53,7 +53,7 @@ const go = async () => {
 
   //3 get the directions
   asyncForEach(routeData, async (listRouteData, i) => {
-    if (i < 2) {
+    if (i > 482) {
       console.log(`google route ${i}/${routeData.length} Route: ${listRouteData.Walk}`); 
 
       let routeDirectionData = {};
