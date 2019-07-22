@@ -340,6 +340,9 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |4|[Bla Bheinn (Blaven)](https://www.walkhighlands.co.uk/skye/blabheinn.shtml)|5 - 6 hours|4 hours 59 mins|
 |4|[Bruach na Frithe](https://www.walkhighlands.co.uk/skye/bruachnafrithe.shtml)|5 - 7 hours|5 hours 5 mins|
 |4|[Sgurr na Banachdich](https://www.walkhighlands.co.uk/skye/sgurrnabanachdich.shtml)|5 - 7 hours|5 hours 30 mins|
+|5|[Fisherfield 6, from Shenavall](https://www.walkhighlands.co.uk/ullapool/fisherfield-6.shtml)|12 - 18 hours|unknown|
+|5|[Ladhar Bheinn from Inverie, Knoydart](https://www.walkhighlands.co.uk/fortwilliam/ladhar-bheinn.shtml)|9 - 12 hours|unknown|
+|5|[Luinne Bheinn and Meall Bhuidhe, Inverie, Knoydart](https://www.walkhighlands.co.uk/fortwilliam/luinne-bheinn.shtml)|11 - 13 hours|unknown|
 |5|[Aonach Eagach](https://www.walkhighlands.co.uk/fortwilliam/aonacheagach.shtml)|7 - 9 hours|2 hours 36 mins|
 |5|[Cairn Toul - Braeriach traverse](https://www.walkhighlands.co.uk/cairngorms/cairn-toul.shtml)|13 hours or 2 Days|2 hours 49 mins|
 |5|[Ben Nevis by the Carn Mor Dearg Arete](https://www.walkhighlands.co.uk/fortwilliam/carnmordeargarete.shtml)|10 - 11 hours|3 hours 12 mins|
@@ -350,10 +353,7 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |5|[Beinn Alligin](https://www.walkhighlands.co.uk/torridon/Beinnalligin.shtml)|6 - 7 hours|4 hours 34 mins|
 |5|[Ben More via a'Chioch and Beinn Fhada](https://www.walkhighlands.co.uk/mull/ben-more-a-chioch.shtml)|8 - 9 hours|4 hours 40 mins|
 |5|[Am Basteir](https://www.walkhighlands.co.uk/skye/ambasteir.shtml)|6 - 7 hours|5 hours 5 mins|
-|5|[Ladhar Bheinn from Inverie, Knoydart](https://www.walkhighlands.co.uk/fortwilliam/ladhar-bheinn.shtml)|9 - 12 hours|unknown|
 |5|[Sgurr nan Gillean](https://www.walkhighlands.co.uk/skye/sgurrnangillean.shtml)|5 - 7 hours|5 hours 5 mins|
-|5|[Luinne Bheinn and Meall Bhuidhe, Inverie, Knoydart](https://www.walkhighlands.co.uk/fortwilliam/luinne-bheinn.shtml)|11 - 13 hours|unknown|
-|5|[Fisherfield 6, from Shenavall](https://www.walkhighlands.co.uk/ullapool/fisherfield-6.shtml)|12 - 18 hours|unknown|
 |5|[Sgurr a Mhadaidh and Sgurr a Ghreadaidh](https://www.walkhighlands.co.uk/skye/sgurraghreadaidh.shtml)|6 - 8 hours|5 hours 30 mins|
 |5|[Sgurr Dearg and the In Pinn](https://www.walkhighlands.co.uk/skye/innpinn.shtml)|6 - 8 hours|5 hours 31 mins|
 |5|[Southern Cuillin and Coire Ghrunnda](https://www.walkhighlands.co.uk/skye/sgurrnaneag.shtml)|7 - 11 hours|5 hours 34 mins|
@@ -412,6 +412,10 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |3|[Beinn Damh (or Ben Damph)](https://www.walkhighlands.co.uk/torridon/Beinndamh.shtml)|5 - 6 hours|4 hours 29 mins|
 |3|[Sgurr a'Chaorachain, Bealach na Ba](https://www.walkhighlands.co.uk/torridon/Sgurrachaorachain.shtml)|2 - 2.5 hours|4 hours 57 mins|
 |3|[Clisham (An Cliseam) direct route](https://www.walkhighlands.co.uk/outer-hebrides/clisham-direct.shtml)|3.5 - 4 hours|8 hours 2 mins|
+|4|[Beinn Bhuidhe, from Inverie](https://www.walkhighlands.co.uk/fortwilliam/beinn-bhuidhe-knoydart.shtml)|7 - 9 hours|unknown|
+|4|[Sgurr a'Choire-bheithe, from Barrisdale Bay](https://www.walkhighlands.co.uk/fortwilliam/sgurr-a-choire-bheithe.shtml)|4.5 - 5.5 hours|unknown|
+|4|[Sgurr Coire Choinnichean, from Inverie](https://www.walkhighlands.co.uk/fortwilliam/sgurr-coire-choinnichean.shtml)|5.5 - 6 hours|unknown|
+|4|[Beinn na Caillich, from Inverie](https://www.walkhighlands.co.uk/fortwilliam/beinn-na-caillich-knoydart.shtml)|8 - 9 hours|unknown|
 |4|[White Coomb by the Grey Mare's Tail](https://www.walkhighlands.co.uk/galloway/white-coomb.shtml)|4 - 6 hours|1 hour 22 mins|
 |4|[Hart Fell ridges horseshoe, near Moffat](https://www.walkhighlands.co.uk/galloway/hart-fell.shtml)|5 - 6 hours|1 hour 27 mins|
 |4|[Creag Uchdag from Glen Lednock](https://www.walkhighlands.co.uk/perthshire/creag-uchdag.shtml)|5.5 - 6.5 hours|1 hour 36 mins|
@@ -425,8 +429,8 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |4|[The Brack and Cnoc Coinnich, Ardgartan](https://www.walkhighlands.co.uk/lochlomond/the-brack.shtml)|6 - 7.5 hours|1 hour 55 mins|
 |4|[Beinn nan Oighreag, Glen Lochay](https://www.walkhighlands.co.uk/perthshire/beinn-nan-oighreag.shtml)|5 - 5.5 hours|1 hour 56 mins|
 |4|[Gaick Corbetts: An Dun and Meall Creag an Loch](https://www.walkhighlands.co.uk/perthshire/gaick-corbetts.shtml)|9 - 10 hours|1 hour 57 mins|
-|4|[The Sow of Atholl, from Dalnaspidal](https://www.walkhighlands.co.uk/perthshire/sow-of-atholl.shtml)|2.5 - 3 hours|2 hours 2 mins|
 |4|[Beinn Mholach, from Dalnaspidal](https://www.walkhighlands.co.uk/perthshire/beinn-mholach.shtml)|6.5 - 7.5 hours|2 hours 2 mins|
+|4|[The Sow of Atholl, from Dalnaspidal](https://www.walkhighlands.co.uk/perthshire/sow-of-atholl.shtml)|2.5 - 3 hours|2 hours 2 mins|
 |4|[Beinn Chuirn, Dalrigh](https://www.walkhighlands.co.uk/argyll/beinn-chuirn.shtml)|5.5 - 6 hours|2 hours 3 mins|
 |4|[Beinn an Lochain](https://www.walkhighlands.co.uk/lochlomond/beinn-an-lochain.shtml)|3 - 5 hours|2 hours 3 mins|
 |4|[Stob Coire Creagach (Binnein an Fhidhleir), Butterbridge](https://www.walkhighlands.co.uk/lochlomond/stob-coire-creagach.shtml)|3 - 5 hours|2 hours 4 mins|
@@ -450,8 +454,8 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |4|[Meallach Mhor and Croidh-la, Glen Tromie](https://www.walkhighlands.co.uk/cairngorms/meallach-mhor.shtml)|7 - 8 hours|2 hours 35 mins|
 |4|[Beinn Bhreac, from Calvine](https://www.walkhighlands.co.uk/perthshire/beinn-bhreac.shtml)|10 - 12 hours|2 hours 35 mins|
 |4|[Sgor Mor circular, from the Linn of Dee](https://www.walkhighlands.co.uk/cairngorms/sgor-mor.shtml)|6 - 7 hours|2 hours 38 mins|
-|4|[Beinn Mhic Chasgaig, Glen Etive](https://www.walkhighlands.co.uk/fortwilliam/beinn-mhic-chasgaig.shtml)|5.5 - 6 hours|2 hours 40 mins|
 |4|[Stob Dubh, Glen Etive](https://www.walkhighlands.co.uk/fortwilliam/stob-dubh.shtml)|7.5 - 8 hours|2 hours 40 mins|
+|4|[Beinn Mhic Chasgaig, Glen Etive](https://www.walkhighlands.co.uk/fortwilliam/beinn-mhic-chasgaig.shtml)|5.5 - 6 hours|2 hours 40 mins|
 |4|[Sgor na h-Ulaidh and Meall Lighiche](https://www.walkhighlands.co.uk/fortwilliam/sgornaulaidh.shtml)|7 - 9 hours|2 hours 41 mins|
 |4|[Meall Buidhe and Sron a'Choire Chnapanich, Glen Lyon](https://www.walkhighlands.co.uk/perthshire/sron-a-choire-chnapanich.shtml)|6 - 6.5 hours|2 hours 42 mins|
 |4|[Beinn Pharlagain, near Rannoch Station](https://www.walkhighlands.co.uk/perthshire/beinn-pharlagain.shtml)|5.5 - 6 hours|2 hours 42 mins|
@@ -469,10 +473,6 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |4|[Beinn Trilleachan, Glen Etive](https://www.walkhighlands.co.uk/fortwilliam/beinn-trilleachan.shtml)|6 - 7 hours|3 hours 4 mins|
 |4|[Geal Charn, from Dorback Lodge near Nethy Bridge](https://www.walkhighlands.co.uk/cairngorms/geal-charn-dorback.shtml)|3.5 - 4 hours|3 hours 5 mins|
 |4|[Carn Ealasaid from the north](https://www.walkhighlands.co.uk/cairngorms/carn-ealasaid.shtml)|3 - 3.5 hours|3 hours 8 mins|
-|4|[Beinn Bhuidhe, from Inverie](https://www.walkhighlands.co.uk/fortwilliam/beinn-bhuidhe-knoydart.shtml)|7 - 9 hours|unknown|
-|4|[Sgurr a'Choire-bheithe, from Barrisdale Bay](https://www.walkhighlands.co.uk/fortwilliam/sgurr-a-choire-bheithe.shtml)|4.5 - 5.5 hours|unknown|
-|4|[Beinn na Caillich, from Inverie](https://www.walkhighlands.co.uk/fortwilliam/beinn-na-caillich-knoydart.shtml)|8 - 9 hours|unknown|
-|4|[Sgurr Coire Choinnichean, from Inverie](https://www.walkhighlands.co.uk/fortwilliam/sgurr-coire-choinnichean.shtml)|5.5 - 6 hours|unknown|
 |4|[Creach Bheinn, from Druimavuic](https://www.walkhighlands.co.uk/argyll/creach-bheinn.shtml)|5 - 6 hours|3 hours 10 mins|
 |4|[Beinn Iaruinn and Leana Mhor, Glen Roy](https://www.walkhighlands.co.uk/fortwilliam/beinn-iaruinn.shtml)|4.5 - 5 hours|3 hours 14 mins|
 |4|[Cruach Innse and Sgurr Innse](https://www.walkhighlands.co.uk/fortwilliam/cruach-innse.shtml)|6 - 7 hours|3 hours 16 mins|
@@ -561,10 +561,10 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |4|[Cranstackie and Beinn Spionnaidh](https://www.walkhighlands.co.uk/sutherland/cranstackie.shtml)|6 - 8 hours|5 hours 22 mins|
 |4|[Beinn an Oir, via Loch an t-Siob](https://www.walkhighlands.co.uk/islay-jura/beinn-an-oir.shtml)|4.5 - 6 hours|6 hours 43 mins|
 |4|[Clisham (An Cliseam) horseshoe](https://www.walkhighlands.co.uk/outer-hebrides/clisham-horseshoe.shtml)|7 - 9 hours|8 hours 7 mins|
-|5|[Ben Aden, by Loch Quoich](https://www.walkhighlands.co.uk/fortwilliam/ben-aden.shtml)|11 - 13 hours|4 hours 8 mins|
-|5|[Beinn Dearg Mor and Beinn Dearg Bheag, from Gruinard](https://www.walkhighlands.co.uk/ullapool/beinn-deargs-fisherfield.shtml)|13 - 15 hours|4 hours 32 mins|
 |5|[Fisherfield 6, from Shenavall](https://www.walkhighlands.co.uk/ullapool/fisherfield-6.shtml)|12 - 18 hours|unknown|
 |5|[Sannox Horseshoe: Cioch na h-Oighe, Cir Mhor and Caisteal Abhail](https://www.walkhighlands.co.uk/arran/sannox-horseshoe.shtml)|9 - 12 hours|3 hours 30 mins|
+|5|[Ben Aden, by Loch Quoich](https://www.walkhighlands.co.uk/fortwilliam/ben-aden.shtml)|11 - 13 hours|4 hours 8 mins|
+|5|[Beinn Dearg Mor and Beinn Dearg Bheag, from Gruinard](https://www.walkhighlands.co.uk/ullapool/beinn-deargs-fisherfield.shtml)|13 - 15 hours|4 hours 32 mins|
 |5|[Rum Cuillin traverse](https://www.walkhighlands.co.uk/islands/rum-cuillin.shtml)|12 - 14 hours|5 hours 54 mins|
 |5|[The Paps of Jura](https://www.walkhighlands.co.uk/islay-jura/paps-of-jura.shtml)|9 - 10 hours|6 hours 43 mins|
 
@@ -667,31 +667,31 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |1|[Moncreiffe Hill near Perth](https://www.walkhighlands.co.uk/perthshire/moncrieffe-hill.shtml)|2 - 3 hours|1 hour 6 mins|
 |1|[Cairn-mon-earn, Durris Forest](https://www.walkhighlands.co.uk/aberdeenshire/cairn-mon-earn.shtml)|2 - 2.5 hours|2 hours 30 mins|
 |1|[Brimmond Hill, near Westhill](https://www.walkhighlands.co.uk/aberdeenshire/brimmond-hill.shtml)|45 minutes|2 hours 33 mins|
-|2|[Striding Arches, near Moniaive](https://www.walkhighlands.co.uk/galloway/striding-arches.shtml)|2.5 - 3.5 hours|2 hours 10 mins|
 |2|[Da Sneug - Da Easy Way, Foula](https://www.walkhighlands.co.uk/shetland/da-sneug.shtml)|2.5 - 3.5 hours|unknown|
-|2|[Largo Law, from Upper Largo](https://www.walkhighlands.co.uk/fife-stirling/largo-law.shtml)|1.5 hours|1 hour 12 mins|
-|2|[Hill of Fare, near Banchory](https://www.walkhighlands.co.uk/aberdeenshire/hill-of-fare.shtml)|4.5 - 5 hours|2 hours 39 mins|
-|2|[Kerloch, from the north](https://www.walkhighlands.co.uk/aberdeenshire/kerloch.shtml)|3 - 3.5 hours|2 hours 44 mins|
-|2|[Dunsinane and King's Seat, Collace](https://www.walkhighlands.co.uk/perthshire/dunsinane.shtml)|2.5 - 4 hours|1 hour 23 mins|
+|2|[Arthur's Seat and Holyrood Park, Edinburgh](https://www.walkhighlands.co.uk/lothian/arthurs-seat.shtml)|2 - 2.5 hours|14 mins|
 |2|[North Berwick Law, North Berwick](https://www.walkhighlands.co.uk/lothian/north-berwick-law.shtml)|2 - 2.5 hours|33 mins|
 |2|[Meikle Says Law](https://www.walkhighlands.co.uk/lothian/meikle-says-law.shtml)|3 - 4 hours|39 mins|
-|2|[Arthur's Seat and Holyrood Park, Edinburgh](https://www.walkhighlands.co.uk/lothian/arthurs-seat.shtml)|2 - 2.5 hours|14 mins|
 |2|[Gamelshiel Castle and Spartleton Hill, Whiteadder Reservoir](https://www.walkhighlands.co.uk/lothian/spartleton.shtml)|2.5 - 3 hours|42 mins|
-|2|[East Lomond from Glenrothes](https://www.walkhighlands.co.uk/fife-stirling/east-lomond-glenrothes.shtml)|3 - 3.5 hours|1 hour 2 mins|
-|2|[Bishop Hill circular from Scotlandwell](https://www.walkhighlands.co.uk/fife-stirling/bishop-hill-scotlandwell.shtml)|2.5 - 3.5 hours|54 mins|
-|2|[Loch Ordie and Deuchary Hill, Dunkeld](https://www.walkhighlands.co.uk/perthshire/loch-ordie.shtml)|6 hours|1 hour 29 mins|
-|2|[East Lomond circuit, Falkland](https://www.walkhighlands.co.uk/fife-stirling/east-lomond.shtml)|2.5 - 3.5 hours|1 hour 4 mins|
-|2|[West Lomond from Craigmead](https://www.walkhighlands.co.uk/fife-stirling/west-lomond.shtml)|2.5 - 3.5 hours|1 hour 8 mins|
-|2|[Bishop Hill circular from Holl Reservoir](https://www.walkhighlands.co.uk/fife-stirling/bishop-hill.shtml)|3 - 4 hours|1 hour 1 min|
-|2|[Sidlaws: Craigowl and Auchterhouse hill](https://www.walkhighlands.co.uk/angus/sidlaw-hills.shtml)|2.5 - 3 hours|1 hour 33 mins|
-|2|[Norman's Law, from Luthrie](https://www.walkhighlands.co.uk/fife-stirling/normans-law.shtml)|2.5 - 3 hours|1 hour 13 mins|
-|2|[Meikle Bin, Carron Valley](https://www.walkhighlands.co.uk/glasgow/meikle-bin.shtml)|2 - 3 hours|1 hour 11 mins|
-|2|[Cairn Table, near Muirkirk](https://www.walkhighlands.co.uk/glasgow/cairn-table.shtml)|2.5 - 3 hours|1 hour 33 mins|
-|2|[Birnam Hill, Birnam](https://www.walkhighlands.co.uk/perthshire/birnam-hill.shtml)|2 - 3 hours|1 hour 22 mins|
-|2|[Dumyat by the hill path](https://www.walkhighlands.co.uk/fife-stirling/dumyat.shtml)|2 - 3 hours|1 hour 4 mins|
-|2|[Eildon Hills, from Melrose](https://www.walkhighlands.co.uk/borders/eildon-hills.shtml)|3 - 4 hours|52 mins|
-|2|[Craigendarroch oakwoods, Ballater](https://www.walkhighlands.co.uk/cairngorms/craigendarroch.shtml)|1.5 - 2 hours|2 hours 46 mins|
 |2|[Benarty Hill, near Ballingry](https://www.walkhighlands.co.uk/fife-stirling/benarty-hill.shtml)|1 - 1.5 hours|51 mins|
+|2|[Eildon Hills, from Melrose](https://www.walkhighlands.co.uk/borders/eildon-hills.shtml)|3 - 4 hours|52 mins|
+|2|[Bishop Hill circular from Scotlandwell](https://www.walkhighlands.co.uk/fife-stirling/bishop-hill-scotlandwell.shtml)|2.5 - 3.5 hours|54 mins|
+|2|[Bishop Hill circular from Holl Reservoir](https://www.walkhighlands.co.uk/fife-stirling/bishop-hill.shtml)|3 - 4 hours|1 hour 1 min|
+|2|[East Lomond from Glenrothes](https://www.walkhighlands.co.uk/fife-stirling/east-lomond-glenrothes.shtml)|3 - 3.5 hours|1 hour 2 mins|
+|2|[East Lomond circuit, Falkland](https://www.walkhighlands.co.uk/fife-stirling/east-lomond.shtml)|2.5 - 3.5 hours|1 hour 4 mins|
+|2|[Dumyat by the hill path](https://www.walkhighlands.co.uk/fife-stirling/dumyat.shtml)|2 - 3 hours|1 hour 4 mins|
+|2|[West Lomond from Craigmead](https://www.walkhighlands.co.uk/fife-stirling/west-lomond.shtml)|2.5 - 3.5 hours|1 hour 8 mins|
+|2|[Meikle Bin, Carron Valley](https://www.walkhighlands.co.uk/glasgow/meikle-bin.shtml)|2 - 3 hours|1 hour 11 mins|
+|2|[Largo Law, from Upper Largo](https://www.walkhighlands.co.uk/fife-stirling/largo-law.shtml)|1.5 hours|1 hour 12 mins|
+|2|[Norman's Law, from Luthrie](https://www.walkhighlands.co.uk/fife-stirling/normans-law.shtml)|2.5 - 3 hours|1 hour 13 mins|
+|2|[Birnam Hill, Birnam](https://www.walkhighlands.co.uk/perthshire/birnam-hill.shtml)|2 - 3 hours|1 hour 22 mins|
+|2|[Dunsinane and King's Seat, Collace](https://www.walkhighlands.co.uk/perthshire/dunsinane.shtml)|2.5 - 4 hours|1 hour 23 mins|
+|2|[Loch Ordie and Deuchary Hill, Dunkeld](https://www.walkhighlands.co.uk/perthshire/loch-ordie.shtml)|6 hours|1 hour 29 mins|
+|2|[Cairn Table, near Muirkirk](https://www.walkhighlands.co.uk/glasgow/cairn-table.shtml)|2.5 - 3 hours|1 hour 33 mins|
+|2|[Sidlaws: Craigowl and Auchterhouse hill](https://www.walkhighlands.co.uk/angus/sidlaw-hills.shtml)|2.5 - 3 hours|1 hour 33 mins|
+|2|[Striding Arches, near Moniaive](https://www.walkhighlands.co.uk/galloway/striding-arches.shtml)|2.5 - 3.5 hours|2 hours 10 mins|
+|2|[Hill of Fare, near Banchory](https://www.walkhighlands.co.uk/aberdeenshire/hill-of-fare.shtml)|4.5 - 5 hours|2 hours 39 mins|
+|2|[Kerloch, from the north](https://www.walkhighlands.co.uk/aberdeenshire/kerloch.shtml)|3 - 3.5 hours|2 hours 44 mins|
+|2|[Craigendarroch oakwoods, Ballater](https://www.walkhighlands.co.uk/cairngorms/craigendarroch.shtml)|1.5 - 2 hours|2 hours 46 mins|
 |2|[Craiglich, near Tarland](https://www.walkhighlands.co.uk/aberdeenshire/craiglich.shtml)|1.5 hours|2 hours 48 mins|
 |2|[Cairn William, Pitfitchie Forest, near Alford](https://www.walkhighlands.co.uk/aberdeenshire/cairn-william.shtml)|3.5 - 4 hours|2 hours 55 mins|
 |2|[Millstone Hill, near Bennachie](https://www.walkhighlands.co.uk/aberdeenshire/millstone-hill.shtml)|1.5 - 3 hours|2 hours 58 mins|
@@ -713,6 +713,8 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |2|[Knitchen Hill, Blotchnie Fiold and Trumland Reserve, Rousay](https://www.walkhighlands.co.uk/orkney/blotchnie-fiold.shtml)|2 - 3 hours|8 hours 58 mins|
 |2|[Island of Noss National Nature Reserve](https://www.walkhighlands.co.uk/shetland/noss.shtml)|3.5 - 4.5 hours|15 hours 33 mins|
 |2|[Ward Hill, Fair Isle](https://www.walkhighlands.co.uk/shetland/ward-hill-fair-isle.shtml)|2 - 3 hours|18 hours 8 mins|
+|3|[Ailsa Craig - the ascent](https://www.walkhighlands.co.uk/glasgow/ailsa-craig.shtml)|1.5 - 2.5 hours|unknown|
+|3|[Conachair and Village Bay, St Kilda](https://www.walkhighlands.co.uk/outer-hebrides/village-bay-conachair.shtml)|2.5 - 3.5 hours|unknown|
 |3|[Allermuir Hill and Swanson](https://www.walkhighlands.co.uk/lothian/allermuir-hill.shtml)|2.5 - 3.5 hours|17 mins|
 |3|[Scald Law and Carnethy Hill, Flotterstone](https://www.walkhighlands.co.uk/lothian/scald-law.shtml)|4.5 - 5.5 hours|23 mins|
 |3|[West Kip, East Kip and Scald Law from Threipmuir](https://www.walkhighlands.co.uk/lothian/west-kip.shtml)|4.5 - 5.5 hours|36 mins|
@@ -731,9 +733,7 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |3|[Correen Hills circuit, near Alford](https://www.walkhighlands.co.uk/aberdeenshire/correen-hills.shtml)|4 - 4.5 hours|3 hours 4 mins|
 |3|[Holy Island (Arran)](https://www.walkhighlands.co.uk/arran/holy-island.shtml)|3 - 3.5 hours|3 hours 20 mins|
 |3|[Knock Hill from Swilebog](https://www.walkhighlands.co.uk/aberdeenshire/knock-hill.shtml)|1.5 - 2 hours|3 hours 29 mins|
-|3|[Ailsa Craig - the ascent](https://www.walkhighlands.co.uk/glasgow/ailsa-craig.shtml)|1.5 - 2.5 hours|unknown|
 |3|[Knock Hill and Knock Wood from Knockbog](https://www.walkhighlands.co.uk/moray/knock-hill.shtml)|2 - 2.5 hours|3 hours 30 mins|
-|3|[Conachair and Village Bay, St Kilda](https://www.walkhighlands.co.uk/outer-hebrides/village-bay-conachair.shtml)|2.5 - 3.5 hours|unknown|
 |3|[Little Conval and Meikle Conval, Dufftown](https://www.walkhighlands.co.uk/moray/convals.shtml)|3.5 - 4.5 hours|3 hours 30 mins|
 |3|[Sail Chalmadale, from Dougarie](https://www.walkhighlands.co.uk/arran/sail-chalmadale.shtml)|5 - 5.5 hours|3 hours 36 mins|
 |3|[Ben Hiant, Ardnamurchan](https://www.walkhighlands.co.uk/fortwilliam/ben-hiant.shtml)|2 - 3 hours|4 hours 29 mins|
@@ -756,9 +756,9 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 |3|[Sandness Hill and Deepdale cliffs, Netherdale](https://www.walkhighlands.co.uk/shetland/sandness-hill.shtml)|3.5 - 5 hours|15 hours 35 mins|
 |3|[Ronas Hill - Shetland's highest summit, Northmavine](https://www.walkhighlands.co.uk/shetland/ronas-hill.shtml)|3 - 4 hours|15 hours 42 mins|
 |3|[The Complete Fair Isle - Ward Hill and the southern coast round](https://www.walkhighlands.co.uk/shetland/complete-fair-isle.shtml)|5.5 - 7 hours|18 hours 8 mins|
+|4|[Da Kame, Da Sneug and Da Noup - the complete Foula](https://www.walkhighlands.co.uk/shetland/complete-foula.shtml)|6 - 7.5 hours|unknown|
 |4|[Kylerhea hills - Beinn na Caillich, Sgurr na Coinnich, Ben Aslak](https://www.walkhighlands.co.uk/skye/kylerheahills.shtml)|8 - 10 hours|4 hours 54 mins|
 |4|[Morven and Maiden Pap](https://www.walkhighlands.co.uk/sutherland/morven.shtml)|7 - 8 hours|5 hours 2 mins|
-|4|[Da Kame, Da Sneug and Da Noup - the complete Foula](https://www.walkhighlands.co.uk/shetland/complete-foula.shtml)|6 - 7.5 hours|unknown|
 |4|[Kylestrome to Rhiconich](https://www.walkhighlands.co.uk/sutherland/kylestrome-rhiconich.shtml)|9 - 11 hours|5 hours 6 mins|
 |4|[Loch Eynort and Preshal Beg](https://www.walkhighlands.co.uk/skye/locheynort.shtml)|7 - 9 hours|5 hours 28 mins|
 |4|[Macleod's Tables](https://www.walkhighlands.co.uk/skye/macleodstables.shtml)|4 - 6 hours|5 hours 38 mins|
