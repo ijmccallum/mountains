@@ -7,17 +7,18 @@ const request = require('request');
 // nextSat8am.setMinutes(0);
 // let departureTime = nextSat8am.getTime() / 1000;
 
-const getDrivetimefromGoogle = ({routeStartPoint}) => {
-    new Promise((resolve, reject) => {
+const getDriveTimeFromGoogle = ({routeStartPoint}) => {
+    return new Promise((resolve, reject) => {
       request(`https://maps.googleapis.com/maps/api/directions/json?origin=${env.HOME_ADDRESS}&destination=${routeStartPoint}&key=${env.GOOGLE_MAPS_API_KEY}`, function(err, resp, body){
         if (err) {
           reject(err);
           return;
         }
 
-        let googleRouteData
+        let googleRouteData;
         try {
           let resData = JSON.parse(body);
+          console.log('resData', resData);
           googleRouteData = {
             distance: resData.routes[0].legs[0].distance,
             duration: resData.routes[0].legs[0].duration,
@@ -38,4 +39,4 @@ const getDrivetimefromGoogle = ({routeStartPoint}) => {
     });
 };
 
-module.exports = getDrivetimefromGoogle;
+module.exports = getDriveTimeFromGoogle;

@@ -17,7 +17,7 @@ const buildMultiSummitRouteTable = ({ routeData }) => {
         summitCount[summit.type] += 1;
       });
 
-      markup += `|**${route.Grade}**|${summitCount.Munro} ${summitCount.Corbett} ${summitCount.Graham} ${summitCount.Donald} ${summitCount['Sub 2000']}|[${route.Walk}](${route.href})|${route.time}|
+      markup += `|**${route.Grade}**|${summitCount.Munro} ${summitCount.Corbett} ${summitCount.Graham} ${summitCount.Donald} ${summitCount['Sub 2000']}|[${route.Walk}](${route.link})|${route.time}|
 `;
     });
   } catch (err) {

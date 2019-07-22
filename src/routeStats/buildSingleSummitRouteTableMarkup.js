@@ -5,7 +5,7 @@ const buildSingleSummitRouteTableMarkup = ({ routeData }) => {
 `;
   try {
     routeData.forEach((route) => {
-      markup += `|${route.Grade}|[${route.Walk}](${route.href})|${route.time}|
+      markup += `|${route.Grade}|[${route.Walk}](${route.link})|${route.time}|
 `;
     });
   } catch (err) {
