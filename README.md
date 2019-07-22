@@ -191,8 +191,6 @@ _From easiest to hardest: sorted by grade, then by count of summit types._
 
 ## Routes by summit type
 
-_Sorted by grade, then by time._
-
 ### Munro Routes
 
 

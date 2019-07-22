@@ -29,8 +29,6 @@ ${multiSummitRouteTableMd}
 
 ## Routes by summit type
 
-_Sorted by grade, then by time._
-
 ### Munro Routes
 
 ${singleMunroRouteTableMd}
