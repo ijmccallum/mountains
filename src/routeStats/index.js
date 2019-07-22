@@ -24,7 +24,6 @@ let donaldRoutes = filterRoutesBySummitType({ routeData, summitType: 'Donald' })
 let sortedDonaldRoutes = sortSingleSummitRouteData({ routeData: donaldRoutes });
 let sub2000Routes = filterRoutesBySummitType({ routeData, summitType: 'Sub 2000' });
 let sortedSub2000Routes = sortSingleSummitRouteData({ routeData: sub2000Routes });
-console.log('sortedSub2000Routes', JSON.stringify(sortedSub2000Routes));
 
 saveMDfile({
   completionStatsMarkup: buildCompletionStatsMarkup(),

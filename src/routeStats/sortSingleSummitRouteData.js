@@ -1,10 +1,10 @@
 const sortByTravelTime = ({routeData}) => {
   let sortedRoutes = routeData.sort((a, b) => {
     if (!a.directions || !a.directions.duration) {
-      return -1;
+      return 1;
     }
     if (!b.directions || !b.directions.duration) {
-      return 1;
+      return -1;
     }
     if (a.directions.duration.value < b.directions.duration.value) {
       return -1;
