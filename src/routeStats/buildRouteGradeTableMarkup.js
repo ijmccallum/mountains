@@ -20,7 +20,15 @@ const buildRouteGradeTableMarkup = ({munroRoutes, corbettRoutes, grahamRoutes, d
   sub2000GradeCounts.total = sub2000Routes.length;
 
   let MDstring = `
-| Count of summit routes: ${totalRouteCount} | 1 | 2 | 3 | 4 | 5 |
+
+In total there are ${totalRouteCount} routes form walk the highlands that hit som ekind of summit. 
+Each is graded between 1 and 5. 
+Below is a count of these summiting routes split between the type of summit hit and their grade.
+Note there are a bunch of routes that hit multiple summits which can be of different types. If a route hits 1 Munro and 1 Corbett it'll be included 
+in the Munro count _and_ the Corbett count. If a route hits 2 Munros it'll only be counted once in the Munro count. So these numbers don't reflect the 
+total number of summits, just the number of routes. Enjoy!
+
+|                                   | 1 | 2 | 3 | 4 | 5 |
 |-----------------------------------|---|---|---|---|---|
 | Munros (${munroRoutes.length})    |${munroGradeCounts['1']||0}|${munroGradeCounts['2']||0}|${munroGradeCounts['3']||0}|${munroGradeCounts['4']||0}|${munroGradeCounts['5']||0}|
 | Corbetts (${corbettRoutes.length})|${corbettGradeCounts['1']||0}|${corbettGradeCounts['2']||0}|${corbettGradeCounts['3']||0}|${corbettGradeCounts['4']||0}|${corbettGradeCounts['5']||0}|

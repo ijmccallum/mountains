@@ -1,7 +1,7 @@
 const buildMultiSummitRouteTable = ({ routeData }) => {
   let markup = `
-| Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | Hike time | Travel time |
-|:-----:|:---------------------------------------------------------------:|------------|-----------|-------------|
+| | Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | Hike time | Travel time |
+|-|:-----:|:---------------------------------------------------------------:|------------|-----------|-------------|
 `;
 try {
   routeData.forEach((route) => {
@@ -23,7 +23,7 @@ try {
       summitCount[summit.type] += 1;
     });
 
-    markup += `|**${route.Grade}**|${summitCount.Munro} ${summitCount.Corbett} ${summitCount.Graham} ${summitCount.Donald} ${summitCount['Sub 2000']}|[${route.Walk}](${route.link})|${route.time}|${travelTime}|
+    markup += `|${route.completionRatio}|**${route.Grade}**|${summitCount.Munro} ${summitCount.Corbett} ${summitCount.Graham} ${summitCount.Donald} ${summitCount['Sub 2000']}|[${route.Walk}](${route.link})|${route.time}|${travelTime}|
 `;
     });
   } catch (err) {

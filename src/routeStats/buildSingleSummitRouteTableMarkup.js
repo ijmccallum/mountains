@@ -1,7 +1,7 @@
 const buildSingleSummitRouteTableMarkup = ({ routeData }) => {
   let markup = `
-| Grade | Walk title | Hike time | Travel time |
-|:-----:|------------|-----------|-------------|
+| | Grade | Walk title | Hike time | Travel time |
+|-|:-----:|------------|-----------|-------------|
 `;
 try {
   routeData.forEach((route) => {
@@ -11,7 +11,7 @@ try {
       } catch (err) {
         
       }
-      markup += `|${route.Grade}|[${route.Walk}](${route.link})|${route.time}|${travelTime}|
+      markup += `|${route.completionRatio}|${route.Grade}|[${route.Walk}](${route.link})|${route.time}|${travelTime}|
 `;
     });
   } catch (err) {

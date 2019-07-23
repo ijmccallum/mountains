@@ -15,7 +15,7 @@ let MDstring = `# Mountains
 
 ${completionStatsMarkup}
 
-## Route grade table
+## Hiking Routes
 
 _Counts of routes by summit type & grade._
 
