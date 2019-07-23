@@ -23,7 +23,8 @@ ${routeGradeTableMarkup}
 
 ## Multi Summit Routes
 
-_From easiest to hardest: sorted by grade, then by count of summit types._
+I've pulled out all the routes that hit more than one summit, they're sorted from easiest to hardest based on the route grade.
+Within each grade they're sorted by the number of summits hit. And for the few that are still equal, the final sort is by driving time from Joppa.
 
 ${multiSummitRouteTableMd}
 

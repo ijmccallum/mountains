@@ -21,10 +21,10 @@ const buildRouteGradeTableMarkup = ({munroRoutes, corbettRoutes, grahamRoutes, d
 
   let MDstring = `
 
-In total there are ${totalRouteCount} routes form walk the highlands that hit som ekind of summit. 
-Each is graded between 1 and 5. 
-Below is a count of these summiting routes split between the type of summit hit and their grade.
-Note there are a bunch of routes that hit multiple summits which can be of different types. If a route hits 1 Munro and 1 Corbett it'll be included 
+In total there are ${totalRouteCount} routes form walk the highlands that hit some kind of summit. 
+Each route is graded between 1 and 5. 
+Below is a count of these summiting routes split between the type of summit hit and the route grade.
+Note there are a bunch of routes that hit multiple summits (frequently different types). If a route hits 1 Munro and 1 Corbett it'll be included 
 in the Munro count _and_ the Corbett count. If a route hits 2 Munros it'll only be counted once in the Munro count. So these numbers don't reflect the 
 total number of summits, just the number of routes. Enjoy!
 

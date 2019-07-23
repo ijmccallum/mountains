@@ -1,7 +1,7 @@
 const buildMultiSummitRouteTable = ({ routeData }) => {
   let markup = `
-| | Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | Hike time | Travel time |
-|-|:-----:|:---------------------------------------------------------------:|------------|-----------|-------------|
+| | Route Grade | Number of summits hit by type: <br />Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | Hike time | Travel time |
+|-|:-----------:|:----------------------------------------------------------------------------------------------------:|------------|-----------|-------------|
 `;
 try {
   routeData.forEach((route) => {

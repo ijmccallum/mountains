@@ -12,10 +12,10 @@ _Counts of routes by summit type & grade._
 
 
 
-In total there are 544 routes form walk the highlands that hit som ekind of summit. 
-Each is graded between 1 and 5. 
-Below is a count of these summiting routes split between the type of summit hit and their grade.
-Note there are a bunch of routes that hit multiple summits which can be of different types. If a route hits 1 Munro and 1 Corbett it'll be included 
+In total there are 544 routes form walk the highlands that hit some kind of summit. 
+Each route is graded between 1 and 5. 
+Below is a count of these summiting routes split between the type of summit hit and the route grade.
+Note there are a bunch of routes that hit multiple summits (frequently different types). If a route hits 1 Munro and 1 Corbett it'll be included 
 in the Munro count _and_ the Corbett count. If a route hits 2 Munros it'll only be counted once in the Munro count. So these numbers don't reflect the 
 total number of summits, just the number of routes. Enjoy!
 
@@ -30,11 +30,12 @@ total number of summits, just the number of routes. Enjoy!
 
 ## Multi Summit Routes
 
-_From easiest to hardest: sorted by grade, then by count of summit types._
+I've pulled out all the routes that hit more than one summit, they're sorted from easiest to hardest based on the route grade.
+Within each grade they're sorted by the number of summits hit. And for the few that are still equal, the final sort is by driving time from Joppa.
 
 
-| | Grade | Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | Hike time | Travel time |
-|-|:-----:|:---------------------------------------------------------------:|------------|-----------|-------------|
+| | Route Grade | Number of summits hit by type: <br />Munroes, Corbetts, Grahams, Donalds, Sub 2000s <br /> M C G D S | Walk title | Hike time | Travel time |
+|-|:-----------:|:----------------------------------------------------------------------------------------------------:|------------|-----------|-------------|
 |0/2|**2**|0 0 0 2 0|[Glen Sherup horseshoe, Glen Devon](https://www.walkhighlands.co.uk/fife-stirling/glen-sherup.shtml)|5 - 6 hours|1 hour 5 mins|
 |0/2|**3**|0 0 0 0 2|[Broughton Heights and Trahenna Hill circuit](https://www.walkhighlands.co.uk/borders/broughton-heights.shtml)|3.5 - 4.5 hours|52 mins|
 |0/2|**3**|0 0 0 0 2|[Carleatheran and Stronend,  near Kippen](https://www.walkhighlands.co.uk/glasgow/carleatheran.shtml)|5 - 6.5 hours|1 hour 18 mins|
