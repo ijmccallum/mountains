@@ -28,7 +28,7 @@ let sortedSub2000Routes = sortSingleSummitRouteData({ routeData: sub2000Routes }
 saveMDfile({
   completionStatsMarkup: buildCompletionStatsMarkup(),
   routeGradeTableMarkup: buildRouteGradeTableMarkup({munroRoutes, corbettRoutes, grahamRoutes, donaldRoutes, sub2000Routes}),
-  multiSummitRouteTableMd: buildMultiSummitRouteTableMarkup({ routeData: multiSummitRoutes }),
+  multiSummitRouteTableMd: buildMultiSummitRouteTableMarkup({ routeData: sortedMultiSummitRoutes }),
   singleMunroRouteTableMd: buildSingleSummitRouteTableMarkup({ routeData: sortedMunroRoutes }),
   singleCorbettRouteTableMd: buildSingleSummitRouteTableMarkup({ routeData: sortedCorbettRoutes }),
   singleGrahamRouteTableMd: buildSingleSummitRouteTableMarkup({ routeData: sortedGrahamRoutes }),
