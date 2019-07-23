@@ -19,7 +19,7 @@ Note there are a bunch of routes that hit multiple summits (frequently different
 in the Munro count _and_ the Corbett count. If a route hits 2 Munros it'll only be counted once in the Munro count. So these numbers don't reflect the 
 total number of summits, just the number of routes. Enjoy!
 
-| *Grade:*                          | 1 | 2 | 3 | 4 | 5 |
+| Grade:                            | 1 | 2 | 3 | 4 | 5 |
 |-----------------------------------|---|---|---|---|---|
 | Munros (163)    |0|0|21|123|19|
 | Corbetts (201)|0|0|46|149|6|
