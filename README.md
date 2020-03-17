@@ -2,7 +2,7 @@
 
 
 Munros hiked: **2/282**
-Corbetts hiked: **2/222**
+Corbetts hiked: **3/222**
 Grahams hiked: **0/219**
     
 
@@ -47,7 +47,7 @@ Within each grade they're sorted by the number of summits hit. And for the few t
 |0/4|**3**|0 0 1 3 0|[Dun Rig Horseshoe, Peebles](https://www.walkhighlands.co.uk/borders/dun-rig.shtml)|6 - 8 hours|49 mins|
 |0/2|**3**|0 0 2 0 0|[Doune Hill and Beinn Eich, from Luss](https://www.walkhighlands.co.uk/lochlomond/doune-hill.shtml)|6 - 6.5 hours|1 hour 39 mins|
 |0/4|**3**|0 0 2 2 0|[Ettrick Hills horseshoe](https://www.walkhighlands.co.uk/borders/ettrick-hills.shtml)|5.5 - 6.5 hours|2 hours 5 mins|
-|0/3|**3**|0 1 0 2 0|[Broad Law, Cramalt Craig and Dollar Law](https://www.walkhighlands.co.uk/borders/broad-law.shtml)|5.5 - 6.5 hours|1 hour 13 mins|
+|1/3|**3**|0 1 0 2 0|[Broad Law, Cramalt Craig and Dollar Law](https://www.walkhighlands.co.uk/borders/broad-law.shtml)|5.5 - 6.5 hours|1 hour 13 mins|
 |0/2|**3**|2 0 0 0 0|[Ben Lawers and Beinn Ghlas](https://www.walkhighlands.co.uk/perthshire/ben-lawers.shtml)|4 - 6 hours|2 hours 0 mins|
 |0/2|**3**|2 0 0 0 0|[Mayar and Driesh, Glen Clova](https://www.walkhighlands.co.uk/angus/mayar-driesh.shtml)|4.5 - 5.5 hours|2 hours 28 mins|
 |0/2|**3**|2 0 0 0 0|[Buachaille Etive Beag](https://www.walkhighlands.co.uk/fortwilliam/buachailleetivebeag.shtml)|5 - 6 hours|2 hours 35 mins|
@@ -375,7 +375,7 @@ Within each grade they're sorted by the number of summits hit. And for the few t
 
 | | Grade | Walk title | Hike time | Travel time |
 |-|:-----:|------------|-----------|-------------|
-|0/3|3|[Broad Law, Cramalt Craig and Dollar Law](https://www.walkhighlands.co.uk/borders/broad-law.shtml)|5.5 - 6.5 hours|1 hour 13 mins|
+|1/3|3|[Broad Law, Cramalt Craig and Dollar Law](https://www.walkhighlands.co.uk/borders/broad-law.shtml)|5.5 - 6.5 hours|1 hour 13 mins|
 |1/1|3|[Ben Ledi](https://www.walkhighlands.co.uk/lochlomond/ben-ledi.shtml)|4 - 6 hours|1 hour 20 mins|
 |0/1|3|[Beinn Each from Loch Lubnaig](https://www.walkhighlands.co.uk/lochlomond/beinn-each.shtml)|3.5 - 4.5 hours|1 hour 24 mins|
 |0/1|3|[Auchnafree Hill from Loch Turret](https://www.walkhighlands.co.uk/perthshire/auchnafree-hill.shtml)|4 - 5 hours|1 hour 37 mins|
@@ -656,7 +656,7 @@ Within each grade they're sorted by the number of summits hit. And for the few t
 |0/4|3|[Dun Rig Horseshoe, Peebles](https://www.walkhighlands.co.uk/borders/dun-rig.shtml)|6 - 8 hours|49 mins|
 |0/3|3|[Pykestone Hill and Drumelzier Law, Drumelzier](https://www.walkhighlands.co.uk/borders/pykestone-hill.shtml)|5 - 5.5 hours|56 mins|
 |0/1|3|[King's Seat Hill from Tillicoultry to Dollar](https://www.walkhighlands.co.uk/fife-stirling/kings-seat.shtml)|4 - 6 hours|1 hour 3 mins|
-|0/3|3|[Broad Law, Cramalt Craig and Dollar Law](https://www.walkhighlands.co.uk/borders/broad-law.shtml)|5.5 - 6.5 hours|1 hour 13 mins|
+|1/3|3|[Broad Law, Cramalt Craig and Dollar Law](https://www.walkhighlands.co.uk/borders/broad-law.shtml)|5.5 - 6.5 hours|1 hour 13 mins|
 |0/3|3|[Green Lowther and Lowther Hill, Wanlockhead](https://www.walkhighlands.co.uk/galloway/lowther-hills.shtml)|3 - 3.5 hours|1 hour 21 mins|
 |0/1|3|[Southern Upland Way 6: Wanlockhead to Beattock](https://www.walkhighlands.co.uk/galloway/wanlockhead-beattock.shtml)|8 - 10 hours|1 hour 21 mins|
 |0/4|3|[Ettrick Hills horseshoe](https://www.walkhighlands.co.uk/borders/ettrick-hills.shtml)|5.5 - 6.5 hours|2 hours 5 mins|
