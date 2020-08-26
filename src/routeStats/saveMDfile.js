@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const saveMDfile = ({ 
+const saveMDfile = ({
   completionStatsMarkup,
   routeGradeTableMarkup,
   multiSummitRouteTableMd,
@@ -11,7 +11,9 @@ const saveMDfile = ({
   singleDonaldRouteTableMd,
   singleSub2000RouteTableMd
 }) => {
-let MDstring = `# Mountains
+  let MDstring = `# Mountains
+
+To add a hiked route: npm i, update ./data manually, npm run stats
 
 ${completionStatsMarkup}
 
@@ -52,17 +54,17 @@ ${singleSub2000RouteTableMd}
 
 `;
 
-try {
-  fs.writeFile(path.join(__dirname, `../../README.md`), MDstring, 'utf8', (err) => {
-    if(err) {
-      console.log('write MD file err');
-      console.log(err);
-    }
-  });
-} catch(err) {
-  console.log('write MD file err');
-  console.log(err);
-}
+  try {
+    fs.writeFile(path.join(__dirname, `../../README.md`), MDstring, 'utf8', (err) => {
+      if (err) {
+        console.log('write MD file err');
+        console.log(err);
+      }
+    });
+  } catch (err) {
+    console.log('write MD file err');
+    console.log(err);
+  }
 }
 
 module.exports = saveMDfile;
